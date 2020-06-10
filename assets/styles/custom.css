@@ -302,7 +302,6 @@ a {
     margin: 0 auto;
     flex-direction: column;
     align-content: center;
-    border: 1px solid red;
 }
 .como-funciona2 img {
     max-width: 166px;
@@ -337,16 +336,19 @@ a {
 }
 .texto2 {
     max-width: 460px;
+    padding: 5px 0px 0px 20px;
 }
 .texto2 h3 {
     color: rgba(0,0,0,.66);
     font-weight: 700;
     font-size: 1.25rem;
+    margin: 0px 0px .5rem 0px;
 }
 .texto2 p {
     color: rgba(0,0,0,.42);
     font-size: 1.125rem;
     line-height: 1.38;
+    margin: 1rem 0px 1rem 0px;
 }
 .botao2 {
     background-color: #ef3a5d;
@@ -364,4 +366,95 @@ a {
 .botao2 a {
     padding: 14.5px 22.24px 14.5px 22.24px;
     color: #fff;
+}
+.usar-bg {
+    background: #f0f1f1;
+}
+.usar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1220px;
+    max-height: 578px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 32px 0px;
+}
+.usar h2 {
+    color: rgba(0,0,0,.66);
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 378px;
+    padding: 2rem 0px 0px 0px;
+    margin: 0px 0px 0px -42px;
+}
+.vantagens-1 {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 198px;
+    margin: 40px 0px 0px -28px;
+}
+.ajudar {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 660px;
+}
+.ajudar img {
+    max-width: 166px;
+    max-height: 166px;
+}
+.texto3 {
+    max-width: 325px;
+    padding: 5px 0px 0px 20px;
+}
+.texto3 h3 {
+    color: rgba(0,0,0,.66);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0px 0px .5rem 0px;
+}
+.texto3 p {
+    color: rgba(0,0,0,.42);
+    font-size: 1.125rem;
+    line-height: 1.38;
+    margin: 1rem 0px 1rem 0px;
+}
+.experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 62px;
+    max-width: 660px;
+}
+.experiencia img {
+    max-width: 166px;
+    max-height: 166px;
+}
+.vantagens-2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 198px;
+    margin: 30px 0px -10px -28px;
+}
+.atencao {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 660px;
+}
+.atencao img {
+    max-width: 166px;
+    max-height: 166px;
+}
+.olho {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 660px;
+    padding: 0px 0px 0px 62px;
+}
+.olho img {
+    max-width: 166px;
+    max-height: 166px;
 }
