@@ -88,7 +88,6 @@ a {
 .img-bg {
     background-image: url(https://doghero-seo.s3-sa-east-1.amazonaws.com/images/como-funciona/banner-doghero-como-funciona.jpg);
     min-height: 568px;
-    height: 85vh;
     background-size: cover;
     margin: -86px 0px 0px 0px;
 }
@@ -96,7 +95,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     max-width: 1220px;
-    max-height: 482px;
+    height: 568px;
     margin: 0 auto;
 }
 .como-funciona-bg {
@@ -603,4 +602,20 @@ button:hover {
 }
 span {
     padding: 0px 135px 0px 15px;
+}
+@media (max-width: 1024px) 
+{
+    .logo { padding: 18px 27px 18px 27px; }
+    .menu { width: 813px; padding: 0px 27px 0px 0px; }
+    .img-bg { background-size: auto; }
+    .como-funciona-texto { justify-content: flex-start; }
+    .texto-1 { max-width: 300px; padding: 0px 0px 0px 100px; }
+    .texto-2 { max-width: 624px; }
+    .doghero-faz { max-width: 921px; }
+    .h1 { max-width: 921px; }
+    .servicos { max-width: 921px; }
+    .vantagens-1 { margin: 40px 0px 0px 0px; }
+    .experiencia { padding: 0px 0px 0px 0px; }
+    .vantagens-2 { margin: 30px 0px -10px 0px; }
+    .olho { padding: 0px 0px 0px 0px; }
 }
