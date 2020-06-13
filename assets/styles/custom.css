@@ -625,6 +625,8 @@ span {
     .header { height: 170px; max-height: 170px; flex-direction: column; align-items: center;}
     .logo { max-width: 716px; }
     .menu { max-width: 754px; padding: 0px 14px 0px 0px; }
+    .lista-1 { padding: 0px 0px 0px 25px; }
+    .lista-2 { padding: 0px 25px 0px 0px; }
     .container { height: 600px; }
     .texto-1 { max-width: 170px; padding: 0px 0px 0px 10px; margin: 0px 0px 0px 0px; }
     .texto-2 { max-width: 578px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; }
@@ -650,4 +652,54 @@ span {
     .email { max-width: 768px; }
     .novidades { padding: 0px 0px 0px 27px; }
     .pais { max-width: 300px; padding: 0px 0px 0px 0px; }
+}
+@media (max-width: 767px)
+{
+    .header-bg { height: 340px; }
+    .header { height: 340px; max-height: 340px; }
+    .menu {  flex-direction: column; max-width: 400px; padding: 0px 0px 0px 0px; }
+    .lista-1 ul { justify-content: center; }
+    .lista-2 { justify-content: center; }
+    .como-funciona-texto { order: -1; margin: 190px 0px 0px 0px; max-width: 400px; }
+    .como-funciona-texto p { max-width: 400px;}
+    .img-bg { background-size: contain; background-repeat: no-repeat; margin: 0px 0px 0px 0px; }
+    .como-funciona-bg { height: 307px; border-bottom: 30px solid #575757; border-left: 40px solid #575757; border-right: 40px solid #575757; margin: -73px 0px 0px 0px; }
+    .como-funciona { padding: 20px 49px 20px 49px; margin: 0px 0px 0px 0px; }
+    .doghero-faz { max-width: 400px; max-height: 1333px; width: 1108px; height: 1333px; }
+    .h1 { width: 400px; }
+    .servicos { flex-direction: column; align-content: center; }
+    .hospedagens { width: 360px; max-width: 360px; margin: 0px 0px 50px 0px; }
+    .creche { width: 360px; max-width: 360px; margin: 0px 0px 50px 0px; }
+    .passeios { width: 360px; max-width: 360px; margin: 0px 0px 50px 0px; }
+    .como-funciona2 { max-height: 1500px; align-items: center; }
+    .como-funciona2 h2 { max-width: 360px; }
+    .palma-mao { justify-content: center; max-width: 360px; padding: 0px 0px 0px 0px; }
+    .relaxe { justify-content: center; max-width: 360px; padding: 0px 0px 0px 0px; }
+    .conta-gente { justify-content: center; max-width: 360px; padding: 0px 0px 0px 0px; }
+    .usar-bg { height: 1400px; }
+    .usar { max-height: 1400px; padding: 0px 0px 56px 0px; }
+    .usar h2 { margin: 0px 0px 0px 0px; }
+    .vantagens-1 { flex-direction: column; max-height: 594px; }
+    .vantagens-2 { flex-direction: column; max-height: 594px; }
+    .ajudar { justify-content: center; }
+    .experiencia { justify-content: center; }
+    .atencao { justify-content: center; }
+    .olho { justify-content: center; }
+    .footer-bg { max-height: 1026px; height: 1026px; }
+    footer { max-height: 1026px; height: 1026px; }
+    .listas { max-width: 400px; flex-direction: column; max-height: 904px; padding: 0px 0px 0px 0px; }
+    .email { max-width: 300px; flex-direction: column; height: 184px; }
+    .lista1 { max-width: 350px; width: 350px; height: 190px; padding: 0px 0px 0px 50px; }
+    .lista2 { max-width: 350px; width: 350px; height: 207px; padding: 0px 0px 0px 50px; margin: 0px 0px 50px 0px; }
+    .lista3 { max-width: 350px; width: 350px; height: 170px; padding: 0px 0px 0px 50px; }
+    .lista4 { max-width: 350px; width: 350px; height: 160px; padding: 0px 0px 0px 50px; margin: 0px 0px 0px 0px; }
+    .novidades { width: 300px; padding: 0px 0px 0px 0px;}
+    .novidades h4 { width: 300px; }
+    .formulario { width: 300px; }
+    .input { max-width: 140px; }
+    input { max-width: 50px; }
+    .li-margin { width: 260px; }
+    .pais { padding: 20px 0px 0px 0px; text-align: left; align-content: flex-start; }
+    .seletor-pais { width: 210px; }
+    span { padding: 0px 110px 0px 15px; }
 }
